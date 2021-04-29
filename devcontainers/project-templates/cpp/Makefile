@@ -1,4 +1,4 @@
-TARGET := hello
+TARGET := Drunky
 
 CXXFLAGS += -std=c++17 -g3 -Wall -Wextra
 
