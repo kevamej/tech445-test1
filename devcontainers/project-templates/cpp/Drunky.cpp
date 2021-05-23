@@ -15,11 +15,11 @@ int main (){
       if (i == position) 
         cout << x;
       else cout << " ";}
-    cout << "|FINISH|" << endl;
+    cout << "|Sleep time!|" << endl;
     int move= rand()%4 - 1;
     position = position + move; 
-    if (position <1) {cout << "You could not finish the race!" <<endl; break;}
-    if (position >size-1) {cout << "Yay! You finished the race" << endl; break;}
+    if (position <1) {cout << "Aw, didnt make it, the side walk isnt so bad." <<endl; break;}
+    if (position >size-1) {cout << "Yay! It wasn't much of a race but getting home to bed" << endl; break;}
     for(int sleep=0; sleep< 1000000 ; ++ sleep);
   }   
   return 0; 
