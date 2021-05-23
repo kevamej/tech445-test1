@@ -8,9 +8,9 @@
             "type": "gdb",
             "request": "launch",
             // change name to reflect the program you wish to debug
-            "name": "Debug 'hello' with GDB",
+            "name": "Debug 'drunky' with GDB",
             // change to name of executable
-            "target": "./hello",
+            "target": "./drunky",
             // change to directory where you have the Makefile
             "cwd": "${workspaceRoot}",
             // this option is very important when working with C++ standard library containers
