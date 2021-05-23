@@ -1,5 +1,6 @@
 TARGET := Drunky
 
+
 CXXFLAGS += -std=c++17 -g3 -Wall -Wextra
 
 EXTRA_warnings := -Wrestrict -Wreturn-local-addr -Wconversion -Warray-bounds -Wpedantic -pedantic
